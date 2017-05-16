@@ -7,21 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0AD6BBF5900955A9137A5B7 /* Pods_InsightApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3503E6946E78DAD32A3ADB4 /* Pods_InsightApp.framework */; };
 		FA8162DA1EC9E9C900D7833B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162D91EC9E9C900D7833B /* AppDelegate.swift */; };
-		FA8162DC1EC9E9C900D7833B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162DB1EC9E9C900D7833B /* ViewController.swift */; };
+		FA8162DC1EC9E9C900D7833B /* InsightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162DB1EC9E9C900D7833B /* InsightVC.swift */; };
 		FA8162DF1EC9E9C900D7833B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8162DD1EC9E9C900D7833B /* Main.storyboard */; };
 		FA8162E11EC9E9C900D7833B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8162E01EC9E9C900D7833B /* Assets.xcassets */; };
 		FA8162E41EC9E9C900D7833B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8162E21EC9E9C900D7833B /* LaunchScreen.storyboard */; };
+		FA8162ED1EC9EC4200D7833B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162EB1EC9EC4200D7833B /* CardView.swift */; };
+		FA8162EE1EC9EC4200D7833B /* CardContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8162EC1EC9EC4200D7833B /* CardContentView.xib */; };
+		FA8162F81EC9ED3300D7833B /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162F01EC9ED3300D7833B /* Direction.swift */; };
+		FA8162F91EC9ED3300D7833B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8162F11EC9ED3300D7833B /* Info.plist */; };
+		FA8162FA1EC9ED3300D7833B /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162F21EC9ED3300D7833B /* Scheduler.swift */; };
+		FA8162FB1EC9ED3300D7833B /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162F31EC9ED3300D7833B /* ViewManager.swift */; };
+		FA8162FC1EC9ED3300D7833B /* ZLSwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162F41EC9ED3300D7833B /* ZLSwipeableView.swift */; };
+		FA8CF67E1ECA5B5D00749303 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8CF67D1ECA5B5D00749303 /* Social.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FA8162FE1EC9ED3300D7833B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8162F51EC9ED3300D7833B /* ZLSwipeableViewSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460B72511B76D3E600BB5ED8;
+			remoteInfo = ZLSwipeableViewSwift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		E1EBB24672A6C3AD8D060951 /* Pods-InsightApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsightApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsightApp/Pods-InsightApp.release.xcconfig"; sourceTree = "<group>"; };
+		E902B4B56DB14C07674EB09F /* Pods-InsightApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsightApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsightApp/Pods-InsightApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F3503E6946E78DAD32A3ADB4 /* Pods_InsightApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsightApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8162D61EC9E9C900D7833B /* InsightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8162D91EC9E9C900D7833B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA8162DB1EC9E9C900D7833B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA8162DB1EC9E9C900D7833B /* InsightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightVC.swift; sourceTree = "<group>"; };
 		FA8162DE1EC9E9C900D7833B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA8162E01EC9E9C900D7833B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8162E31EC9E9C900D7833B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA8162E51EC9E9C900D7833B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8162EB1EC9EC4200D7833B /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FA8162EC1EC9EC4200D7833B /* CardContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardContentView.xib; sourceTree = "<group>"; };
+		FA8162F01EC9ED3300D7833B /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		FA8162F11EC9ED3300D7833B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8162F21EC9ED3300D7833B /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		FA8162F31EC9ED3300D7833B /* ViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		FA8162F41EC9ED3300D7833B /* ZLSwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSwipeableView.swift; sourceTree = "<group>"; };
+		FA8162F51EC9ED3300D7833B /* ZLSwipeableViewSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ZLSwipeableViewSwift.xcodeproj; sourceTree = "<group>"; };
+		FA8CF67D1ECA5B5D00749303 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +60,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8CF67E1ECA5B5D00749303 /* Social.framework in Frameworks */,
+				C0AD6BBF5900955A9137A5B7 /* Pods_InsightApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92D65266C8B22D9A364F7E84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA8CF67D1ECA5B5D00749303 /* Social.framework */,
+				F3503E6946E78DAD32A3ADB4 /* Pods_InsightApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDF6D472D0705AAC0A4664E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E902B4B56DB14C07674EB09F /* Pods-InsightApp.debug.xcconfig */,
+				E1EBB24672A6C3AD8D060951 /* Pods-InsightApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA8162CD1EC9E9C900D7833B = {
 			isa = PBXGroup;
 			children = (
+				FA8162EF1EC9ED3300D7833B /* ZLSwipeableViewSwift */,
 				FA8162D81EC9E9C900D7833B /* InsightApp */,
 				FA8162D71EC9E9C900D7833B /* Products */,
+				EDF6D472D0705AAC0A4664E4 /* Pods */,
+				92D65266C8B22D9A364F7E84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +109,36 @@
 			isa = PBXGroup;
 			children = (
 				FA8162D91EC9E9C900D7833B /* AppDelegate.swift */,
-				FA8162DB1EC9E9C900D7833B /* ViewController.swift */,
+				FA8162DB1EC9E9C900D7833B /* InsightVC.swift */,
+				FA8162EB1EC9EC4200D7833B /* CardView.swift */,
 				FA8162DD1EC9E9C900D7833B /* Main.storyboard */,
+				FA8162EC1EC9EC4200D7833B /* CardContentView.xib */,
 				FA8162E01EC9E9C900D7833B /* Assets.xcassets */,
 				FA8162E21EC9E9C900D7833B /* LaunchScreen.storyboard */,
 				FA8162E51EC9E9C900D7833B /* Info.plist */,
 			);
 			path = InsightApp;
+			sourceTree = "<group>";
+		};
+		FA8162EF1EC9ED3300D7833B /* ZLSwipeableViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FA8162F01EC9ED3300D7833B /* Direction.swift */,
+				FA8162F11EC9ED3300D7833B /* Info.plist */,
+				FA8162F21EC9ED3300D7833B /* Scheduler.swift */,
+				FA8162F31EC9ED3300D7833B /* ViewManager.swift */,
+				FA8162F41EC9ED3300D7833B /* ZLSwipeableView.swift */,
+				FA8162F51EC9ED3300D7833B /* ZLSwipeableViewSwift.xcodeproj */,
+			);
+			path = ZLSwipeableViewSwift;
+			sourceTree = "<group>";
+		};
+		FA8162F61EC9ED3300D7833B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8162FF1EC9ED3300D7833B /* ZLSwipeableViewSwift.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA8162E81EC9E9C900D7833B /* Build configuration list for PBXNativeTarget "InsightApp" */;
 			buildPhases = (
+				56563ABEAF9ECAA2846DE929 /* [CP] Check Pods Manifest.lock */,
 				FA8162D21EC9E9C900D7833B /* Sources */,
 				FA8162D31EC9E9C900D7833B /* Frameworks */,
 				FA8162D41EC9E9C900D7833B /* Resources */,
+				89A4FCFE3C0BE9672C69426F /* [CP] Embed Pods Frameworks */,
+				46352974837D3EA049397A0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +177,7 @@
 					FA8162D51EC9E9C900D7833B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 243DK6F34T;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -112,6 +193,12 @@
 			mainGroup = FA8162CD1EC9E9C900D7833B;
 			productRefGroup = FA8162D71EC9E9C900D7833B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA8162F61EC9ED3300D7833B /* Products */;
+					ProjectRef = FA8162F51EC9ED3300D7833B /* ZLSwipeableViewSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FA8162D51EC9E9C900D7833B /* InsightApp */,
@@ -119,26 +206,91 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		FA8162FF1EC9ED3300D7833B /* ZLSwipeableViewSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZLSwipeableViewSwift.framework;
+			remoteRef = FA8162FE1EC9ED3300D7833B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		FA8162D41EC9E9C900D7833B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8162EE1EC9EC4200D7833B /* CardContentView.xib in Resources */,
 				FA8162E41EC9E9C900D7833B /* LaunchScreen.storyboard in Resources */,
 				FA8162E11EC9E9C900D7833B /* Assets.xcassets in Resources */,
+				FA8162F91EC9ED3300D7833B /* Info.plist in Resources */,
 				FA8162DF1EC9E9C900D7833B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46352974837D3EA049397A0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsightApp/Pods-InsightApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56563ABEAF9ECAA2846DE929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89A4FCFE3C0BE9672C69426F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsightApp/Pods-InsightApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA8162D21EC9E9C900D7833B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA8162DC1EC9E9C900D7833B /* ViewController.swift in Sources */,
+				FA8162FB1EC9ED3300D7833B /* ViewManager.swift in Sources */,
+				FA8162DC1EC9E9C900D7833B /* InsightVC.swift in Sources */,
+				FA8162ED1EC9EC4200D7833B /* CardView.swift in Sources */,
 				FA8162DA1EC9E9C900D7833B /* AppDelegate.swift in Sources */,
+				FA8162FA1EC9ED3300D7833B /* Scheduler.swift in Sources */,
+				FA8162F81EC9ED3300D7833B /* Direction.swift in Sources */,
+				FA8162FC1EC9ED3300D7833B /* ZLSwipeableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,10 +413,12 @@
 		};
 		FA8162E91EC9E9C900D7833B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E902B4B56DB14C07674EB09F /* Pods-InsightApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 243DK6F34T;
 				INFOPLIST_FILE = InsightApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.kesleyribeiro.InsightApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,10 +428,12 @@
 		};
 		FA8162EA1EC9E9C900D7833B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EBB24672A6C3AD8D060951 /* Pods-InsightApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 243DK6F34T;
 				INFOPLIST_FILE = InsightApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.kesleyribeiro.InsightApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +460,7 @@
 				FA8162EA1EC9E9C900D7833B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

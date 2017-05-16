@@ -1,0 +1,21 @@
+PODS:
+  - Cartography (1.1.0)
+  - DOFavoriteButton (0.0.4)
+  - UIColor+FlatColors (0.0.2)
+  - YBAlertController (0.1.2)
+
+DEPENDENCIES:
+  - Cartography
+  - DOFavoriteButton
+  - UIColor+FlatColors
+  - YBAlertController
+
+SPEC CHECKSUMS:
+  Cartography: 0538ccb4044acbbda2266335fc58cb4228794d90
+  DOFavoriteButton: 866e15af173d2dd5233971a1f657a5f31d2491d5
+  UIColor+FlatColors: 6c699df7a575281794c688c64cee6c44fd1f93b4
+  YBAlertController: 68e8874813d1d9a5c76d72e5bb927e18f2d1afb8
+
+PODFILE CHECKSUM: 1f6ce0ff61315275e29ed7c41a08de1044f029d1
+
+COCOAPODS: 1.2.0
