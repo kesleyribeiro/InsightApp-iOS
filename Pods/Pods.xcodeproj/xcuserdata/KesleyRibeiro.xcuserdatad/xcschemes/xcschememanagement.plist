@@ -14,10 +14,25 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>GTMSessionFetcher.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>Pods-InsightApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>SwiftKeychainWrapper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 		<key>UIColor+FlatColors.xcscheme</key>
 		<dict>
@@ -37,7 +52,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>00103D6C821BE85971C563025527BA5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0265BFA3545914D1C710974965BDC715</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A691575FF8670B592CD132EB2CD9F98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0BFA34F8F3A4ACC15116CCB40C985193</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12420642BCBF29890B1021E8B0551659</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,12 +92,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>32E254F82BA512D4CFB31261697CC708</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>33804A76B57081CC78770198B56CD9BA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>541D0315EBC92873A7F2E952CE69FF81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>544212980401A6DA7806F65EAD8C6637</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>546D0933232328D27C8452F08D7B8786</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,12 +127,42 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>625E7A5FE15A43D2C9C5B37FFC2F4E96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67DC7B8885907F4766A76A0BC235A79E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6FA1BBFEC1142B5251A8110482AF1345</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>874AE2AE86CC6C1BD1EC233D9B421068</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9F48075505C8E9F2C72BD162084A8B5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AD68E0FBD3524F042136C49C5E67D373</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFD7CAF02AD6E20212CB16703F90869B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -93,6 +178,11 @@
 			<true/>
 		</dict>
 		<key>E320FEDAA1E6E97AF8E673F8C9BB09EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFBB39500F80362536570EDFC11432CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

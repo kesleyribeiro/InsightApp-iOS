@@ -10,17 +10,19 @@
 		C0AD6BBF5900955A9137A5B7 /* Pods_InsightApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3503E6946E78DAD32A3ADB4 /* Pods_InsightApp.framework */; };
 		FA8162DA1EC9E9C900D7833B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162D91EC9E9C900D7833B /* AppDelegate.swift */; };
 		FA8162DC1EC9E9C900D7833B /* InsightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162DB1EC9E9C900D7833B /* InsightVC.swift */; };
-		FA8162DF1EC9E9C900D7833B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8162DD1EC9E9C900D7833B /* Main.storyboard */; };
 		FA8162E11EC9E9C900D7833B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8162E01EC9E9C900D7833B /* Assets.xcassets */; };
 		FA8162E41EC9E9C900D7833B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8162E21EC9E9C900D7833B /* LaunchScreen.storyboard */; };
-		FA8162ED1EC9EC4200D7833B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162EB1EC9EC4200D7833B /* CardView.swift */; };
-		FA8162EE1EC9EC4200D7833B /* CardContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8162EC1EC9EC4200D7833B /* CardContentView.xib */; };
+		FA8162ED1EC9EC4200D7833B /* CartaoFraseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162EB1EC9EC4200D7833B /* CartaoFraseVC.swift */; };
+		FA8162EE1EC9EC4200D7833B /* CartaoFraseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8162EC1EC9EC4200D7833B /* CartaoFraseView.xib */; };
 		FA8162F81EC9ED3300D7833B /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162F01EC9ED3300D7833B /* Direction.swift */; };
 		FA8162F91EC9ED3300D7833B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8162F11EC9ED3300D7833B /* Info.plist */; };
 		FA8162FA1EC9ED3300D7833B /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162F21EC9ED3300D7833B /* Scheduler.swift */; };
 		FA8162FB1EC9ED3300D7833B /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162F31EC9ED3300D7833B /* ViewManager.swift */; };
 		FA8162FC1EC9ED3300D7833B /* ZLSwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8162F41EC9ED3300D7833B /* ZLSwipeableView.swift */; };
 		FA8CF67E1ECA5B5D00749303 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8CF67D1ECA5B5D00749303 /* Social.framework */; };
+		FAAA4A051ECB85B400DA2620 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA49F81ECB85B400DA2620 /* DataService.swift */; };
+		FAAA4A101ECB873900DA2620 /* Frase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA4A0F1ECB873900DA2620 /* Frase.swift */; };
+		FAAA4A161ECBA76000DA2620 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAAA4A151ECBA76000DA2620 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +42,11 @@
 		FA8162D61EC9E9C900D7833B /* InsightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8162D91EC9E9C900D7833B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA8162DB1EC9E9C900D7833B /* InsightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightVC.swift; sourceTree = "<group>"; };
-		FA8162DE1EC9E9C900D7833B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA8162E01EC9E9C900D7833B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8162E31EC9E9C900D7833B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA8162E51EC9E9C900D7833B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA8162EB1EC9EC4200D7833B /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		FA8162EC1EC9EC4200D7833B /* CardContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardContentView.xib; sourceTree = "<group>"; };
+		FA8162EB1EC9EC4200D7833B /* CartaoFraseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartaoFraseVC.swift; sourceTree = "<group>"; };
+		FA8162EC1EC9EC4200D7833B /* CartaoFraseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartaoFraseView.xib; sourceTree = "<group>"; };
 		FA8162F01EC9ED3300D7833B /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		FA8162F11EC9ED3300D7833B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8162F21EC9ED3300D7833B /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
@@ -53,6 +54,10 @@
 		FA8162F41EC9ED3300D7833B /* ZLSwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSwipeableView.swift; sourceTree = "<group>"; };
 		FA8162F51EC9ED3300D7833B /* ZLSwipeableViewSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ZLSwipeableViewSwift.xcodeproj; sourceTree = "<group>"; };
 		FA8CF67D1ECA5B5D00749303 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FAAA49F81ECB85B400DA2620 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataService.swift; path = FireSocial/DataService.swift; sourceTree = "<group>"; };
+		FAAA4A0F1ECB873900DA2620 /* Frase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frase.swift; sourceTree = "<group>"; };
+		FAAA4A151ECBA76000DA2620 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAAA4A1B1ECBAE1500DA2620 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +94,8 @@
 		FA8162CD1EC9E9C900D7833B = {
 			isa = PBXGroup;
 			children = (
-				FA8162EF1EC9ED3300D7833B /* ZLSwipeableViewSwift */,
 				FA8162D81EC9E9C900D7833B /* InsightApp */,
+				FAAA49ED1ECB74DA00DA2620 /* Utils */,
 				FA8162D71EC9E9C900D7833B /* Products */,
 				EDF6D472D0705AAC0A4664E4 /* Pods */,
 				92D65266C8B22D9A364F7E84 /* Frameworks */,
@@ -109,13 +114,14 @@
 			isa = PBXGroup;
 			children = (
 				FA8162D91EC9E9C900D7833B /* AppDelegate.swift */,
-				FA8162DB1EC9E9C900D7833B /* InsightVC.swift */,
-				FA8162EB1EC9EC4200D7833B /* CardView.swift */,
-				FA8162DD1EC9E9C900D7833B /* Main.storyboard */,
-				FA8162EC1EC9EC4200D7833B /* CardContentView.xib */,
+				FAAA4A0D1ECB85E500DA2620 /* Services */,
+				FAAA4A0E1ECB872100DA2620 /* Model */,
+				FAAA4A121ECB957400DA2620 /* Controller */,
+				FAAA4A141ECB95D100DA2620 /* View */,
 				FA8162E01EC9E9C900D7833B /* Assets.xcassets */,
 				FA8162E21EC9E9C900D7833B /* LaunchScreen.storyboard */,
 				FA8162E51EC9E9C900D7833B /* Info.plist */,
+				FAAA4A151ECBA76000DA2620 /* GoogleService-Info.plist */,
 			);
 			path = InsightApp;
 			sourceTree = "<group>";
@@ -139,6 +145,47 @@
 				FA8162FF1EC9ED3300D7833B /* ZLSwipeableViewSwift.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAA49ED1ECB74DA00DA2620 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA8162EF1EC9ED3300D7833B /* ZLSwipeableViewSwift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		FAAA4A0D1ECB85E500DA2620 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA49F81ECB85B400DA2620 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		FAAA4A0E1ECB872100DA2620 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA4A0F1ECB873900DA2620 /* Frase.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAAA4A121ECB957400DA2620 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA8162DB1EC9E9C900D7833B /* InsightVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FAAA4A141ECB95D100DA2620 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA8162EB1EC9EC4200D7833B /* CartaoFraseVC.swift */,
+				FA8162EC1EC9EC4200D7833B /* CartaoFraseView.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,11 +268,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA8162EE1EC9EC4200D7833B /* CardContentView.xib in Resources */,
+				FA8162EE1EC9EC4200D7833B /* CartaoFraseView.xib in Resources */,
 				FA8162E41EC9E9C900D7833B /* LaunchScreen.storyboard in Resources */,
 				FA8162E11EC9E9C900D7833B /* Assets.xcassets in Resources */,
 				FA8162F91EC9ED3300D7833B /* Info.plist in Resources */,
-				FA8162DF1EC9E9C900D7833B /* Main.storyboard in Resources */,
+				FAAA4A161ECBA76000DA2620 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,29 +333,24 @@
 			files = (
 				FA8162FB1EC9ED3300D7833B /* ViewManager.swift in Sources */,
 				FA8162DC1EC9E9C900D7833B /* InsightVC.swift in Sources */,
-				FA8162ED1EC9EC4200D7833B /* CardView.swift in Sources */,
+				FA8162ED1EC9EC4200D7833B /* CartaoFraseVC.swift in Sources */,
 				FA8162DA1EC9E9C900D7833B /* AppDelegate.swift in Sources */,
 				FA8162FA1EC9ED3300D7833B /* Scheduler.swift in Sources */,
 				FA8162F81EC9ED3300D7833B /* Direction.swift in Sources */,
+				FAAA4A101ECB873900DA2620 /* Frase.swift in Sources */,
 				FA8162FC1EC9ED3300D7833B /* ZLSwipeableView.swift in Sources */,
+				FAAA4A051ECB85B400DA2620 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA8162DD1EC9E9C900D7833B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA8162DE1EC9E9C900D7833B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA8162E21EC9E9C900D7833B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FA8162E31EC9E9C900D7833B /* Base */,
+				FAAA4A1B1ECBAE1500DA2620 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -371,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

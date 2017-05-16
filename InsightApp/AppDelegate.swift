@@ -7,15 +7,20 @@
 //
 
 import UIKit
+import Firebase
+
+// Variáveis global
+let KEY_UID = "uid"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        FIRApp.configure()
+
         window = UIWindow(frame: UIScreen.main.bounds)
         
         if let window = window {
@@ -23,6 +28,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window.rootViewController = UINavigationController(rootViewController: insightVC)
             window.makeKeyAndVisible()
         }
+
+        // Define as cores da NavigationBar e dos ícones que estiver nela
+        UINavigationBar.appearance().barTintColor = UIColor(red: 36/255, green: 34/255, blue: 74/255, alpha: 1)
+        UINavigationBar.appearance().tintColor = UIColor(red: 41/255, green: 121/255, blue: 255/255, alpha: 1)
+        
+        // Define o tipo de font e o seu tamanho
+        if let navBarFont = UIFont(name: "Avenir-Light", size: 24) {
+            UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.yellow, NSFontAttributeName:navBarFont]
+        }
+
+        // Muda a aparência da status bar para branco
+        UIApplication.shared.statusBarStyle = .lightContent        
+
         return true
     }
 

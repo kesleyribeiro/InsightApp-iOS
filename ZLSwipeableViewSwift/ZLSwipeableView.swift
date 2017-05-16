@@ -36,7 +36,7 @@ public struct Movement {
 open class ZLSwipeableView: UIView {
 
     // MARK: Data Source
-    open var numberOfActiveView = UInt(4)
+    open var numberOfActiveView = UInt(10)
     open var nextView: NextViewHandler? {
         didSet {
             loadViews()

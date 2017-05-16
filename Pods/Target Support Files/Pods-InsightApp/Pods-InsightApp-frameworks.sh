@@ -90,13 +90,17 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Cartography/Cartography.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/DOFavoriteButton/DOFavoriteButton.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GTMSessionFetcher/GTMSessionFetcher.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GoogleToolboxForMac/GoogleToolboxForMac.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"
   install_framework "$BUILT_PRODUCTS_DIR/UIColor+FlatColors/UIColor_FlatColors.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YBAlertController/YBAlertController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Cartography/Cartography.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/DOFavoriteButton/DOFavoriteButton.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GTMSessionFetcher/GTMSessionFetcher.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/GoogleToolboxForMac/GoogleToolboxForMac.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"
   install_framework "$BUILT_PRODUCTS_DIR/UIColor+FlatColors/UIColor_FlatColors.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YBAlertController/YBAlertController.framework"
 fi

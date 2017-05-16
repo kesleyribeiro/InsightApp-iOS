@@ -3,9 +3,13 @@
 
 target 'InsightApp' do
   use_frameworks!
-  
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
   pod 'YBAlertController'
   pod 'UIColor+FlatColors'
-	pod 'Cartography'
-  pod 'DOFavoriteButton'
+  pod 'Cartography'
+  pod 'SwiftKeychainWrapper'
 end

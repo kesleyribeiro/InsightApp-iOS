@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0BFA34F8F3A4ACC15116CCB40C985193'
+               BlueprintIdentifier = '67DC7B8885907F4766A76A0BC235A79E'
                BlueprintName = 'Pods-InsightApp'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-InsightApp.framework'>
